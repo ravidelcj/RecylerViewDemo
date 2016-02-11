@@ -13,8 +13,9 @@
     tools:showIn="@layout/activity_main"
     tools:context="ezio.recylerviewdemo.MainActivity">
 
-    <TextView
-        android:text="Hello World!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:id="@+id/btn"/>
 </RelativeLayout>
